@@ -10,9 +10,9 @@ body {
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 500px;
+    height: 558px;
     padding: 20px;
-    width: 800px;
+    width: 820px;
   }
   
   .title {
@@ -114,6 +114,21 @@ body {
     font-size: 18px;
     height: 50px;
     margin-top: 38px;
+    text-align: center;
+    width: 100%;
+  }
+
+    
+  .back {
+    background-color: rgb(167, 71, 71);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 20px;
     text-align: center;
     width: 100%;
   }
