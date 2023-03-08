@@ -3,6 +3,7 @@
 export const existsError = async function(service, endpoint, id){
     let url = "http://localhost:8080/error/exists-error/"+service+"/"+endpoint+"/"+id;
     console.log("Consumiendo localhost...");
+    window.alert(url);
     try{
         let response = await fetch(
             url,
@@ -17,7 +18,6 @@ export const existsError = async function(service, endpoint, id){
         {
                 case 200:
                     {
-                        console.log(datos.exists);
                         return( {rdo:0, mensaje:"ok", existsError: datos.exists});
                     }
                 default:

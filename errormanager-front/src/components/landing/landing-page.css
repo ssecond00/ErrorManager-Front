@@ -1,0 +1,8 @@
+body,h1 {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+  }
